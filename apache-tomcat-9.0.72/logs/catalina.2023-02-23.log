@@ -1,0 +1,94 @@
+23-Feb-2023 17:16:06.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.72
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 18 2023 09:25:13 UTC
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.72.0
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.12-100.fc36.x86_64
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/me/.sdkman/candidates/java/11.0.17-amzn
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8-LTS
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/me/hello/apache-tomcat-9.0.72
+23-Feb-2023 17:16:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/me/hello/apache-tomcat-9.0.72
+23-Feb-2023 17:16:06.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2023 17:16:06.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2023 17:16:06.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2023 17:16:06.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2023 17:16:06.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2023 17:16:06.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/me/hello/apache-tomcat-9.0.72/conf/logging.properties
+23-Feb-2023 17:16:06.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2023 17:16:06.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2023 17:16:06.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2023 17:16:06.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Feb-2023 17:16:06.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2023 17:16:06.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/me/hello/apache-tomcat-9.0.72
+23-Feb-2023 17:16:06.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/me/hello/apache-tomcat-9.0.72
+23-Feb-2023 17:16:06.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/me/hello/apache-tomcat-9.0.72/temp
+23-Feb-2023 17:16:06.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+23-Feb-2023 17:16:07.031 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+23-Feb-2023 17:16:07.044 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [294] milliseconds
+23-Feb-2023 17:16:07.075 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2023 17:16:07.075 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+23-Feb-2023 17:16:07.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/ROOT]
+23-Feb-2023 17:16:07.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/ROOT] has finished in [140] ms
+23-Feb-2023 17:16:07.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/docs]
+23-Feb-2023 17:16:07.231 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/docs] has finished in [12] ms
+23-Feb-2023 17:16:07.232 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/examples]
+23-Feb-2023 17:16:07.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/examples] has finished in [109] ms
+23-Feb-2023 17:16:07.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/host-manager]
+23-Feb-2023 17:16:07.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/host-manager] has finished in [11] ms
+23-Feb-2023 17:16:07.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/manager]
+23-Feb-2023 17:16:07.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/me/hello/apache-tomcat-9.0.72/webapps/manager] has finished in [10] ms
+23-Feb-2023 17:16:07.367 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+23-Feb-2023 17:16:07.372 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [328] milliseconds
+23-Feb-2023 17:22:37.423 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/me/hello/apache-tomcat-9.0.72/conf/tomcat-users.xml]
+23-Feb-2023 17:22:37.427 SEVERE [Catalina-utility-1] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [57] column [2]
+	org.xml.sax.SAXParseException; lineNumber: 57; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1398)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1552)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:447)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:741)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:139)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:282)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1088)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+23-Feb-2023 17:22:37.429 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Error reloading memory user database [UserDatabase] from updated source [file:/home/me/hello/apache-tomcat-9.0.72/conf/tomcat-users.xml]
+	org.xml.sax.SAXParseException; lineNumber: 57; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1243)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1552)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:447)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:741)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:139)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:282)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1088)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+23-Feb-2023 17:25:57.460 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/me/hello/apache-tomcat-9.0.72/conf/tomcat-users.xml]
+23-Feb-2023 17:26:07.469 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/me/hello/apache-tomcat-9.0.72/conf/tomcat-users.xml]

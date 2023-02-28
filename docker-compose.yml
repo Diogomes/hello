@@ -11,3 +11,4 @@ services:
     environment:
       - POSTGRES_DB=tasks
       - POSTSGRES_PASSWORD=password
+      - POSTGRES_HOST_AUTH_METHOD=trust

@@ -26,3 +26,14 @@
 127.0.0.1 - - [28/Feb/2023:09:32:05 -0300] "POST /tasks-backend/todo HTTP/1.1" 201 59
 127.0.0.1 - - [28/Feb/2023:09:32:05 -0300] "GET /tasks-backend/todo HTTP/1.1" 200 61
 0:0:0:0:0:0:0:1 - - [28/Feb/2023:09:32:05 -0300] "POST /tasks/save HTTP/1.1" 200 1262
+0:0:0:0:0:0:0:1 - - [28/Feb/2023:22:19:05 -0300] "GET / HTTP/1.1" 200 11428
+0:0:0:0:0:0:0:1 - - [28/Feb/2023:22:19:05 -0300] "GET /tomcat.svg HTTP/1.1" 200 68761
+0:0:0:0:0:0:0:1 - admin [28/Feb/2023:22:19:08 -0300] "GET /manager/html HTTP/1.1" 200 20065
+0:0:0:0:0:0:0:1 - - [28/Feb/2023:22:19:08 -0300] "GET /manager/images/tomcat.svg HTTP/1.1" 200 68761
+0:0:0:0:0:0:0:1 - - [28/Feb/2023:22:19:08 -0300] "GET /manager/css/manager.css HTTP/1.1" 200 2946
+0:0:0:0:0:0:0:1 - - [28/Feb/2023:22:19:12 -0300] "GET /tasks-backend/ HTTP/1.1" 200 12
+0:0:0:0:0:0:0:1 - admin [28/Feb/2023:22:20:06 -0300] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=0CB6352CFCBDE61D351F499573A80691 HTTP/1.1" 200 20115
+127.0.0.1 - - [28/Feb/2023:22:20:12 -0300] "GET /tasks-backend/todo HTTP/1.1" 200 12
+0:0:0:0:0:0:0:1 - - [28/Feb/2023:22:20:13 -0300] "GET /tasks/ HTTP/1.1" 200 810
+0:0:0:0:0:0:0:1 - - [28/Feb/2023:22:20:13 -0300] "GET /tasks/js/bootstrap.min.js HTTP/1.1" 200 60010
+0:0:0:0:0:0:0:1 - - [28/Feb/2023:22:20:13 -0300] "GET /tasks/css/bootstrap.min.css HTTP/1.1" 200 159515

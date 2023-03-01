@@ -1,0 +1,7 @@
+## Intellij ##
+/.idea/
+
+## Apache Tomcat ##
+/apache-tomcat-9.0.72/logs/
+
+/.DS_Store

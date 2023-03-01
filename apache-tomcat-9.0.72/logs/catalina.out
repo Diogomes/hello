@@ -13020,3 +13020,105 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 2023-02-28 09:26:38.132  INFO 63482 --- [nio-8001-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
 2023-02-28 09:30:48.615  INFO 63482 --- [nio-8001-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-02-28 09:30:48.619  INFO 63482 --- [nio-8001-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+28-Feb-2023 22:18:49.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.72
+28-Feb-2023 22:18:49.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 18 2023 09:25:13 UTC
+28-Feb-2023 22:18:49.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.72.0
+28-Feb-2023 22:18:49.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Feb-2023 22:18:49.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+28-Feb-2023 22:18:49.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Feb-2023 22:18:49.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home/jre
+28-Feb-2023 22:18:49.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
+28-Feb-2023 22:18:49.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Feb-2023 22:18:49.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/convidade/workspace/hello/apache-tomcat-9.0.72
+28-Feb-2023 22:18:49.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/convidade/workspace/hello/apache-tomcat-9.0.72
+28-Feb-2023 22:18:49.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/convidade/workspace/hello/apache-tomcat-9.0.72/conf/logging.properties
+28-Feb-2023 22:18:49.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Feb-2023 22:18:49.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Feb-2023 22:18:49.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Feb-2023 22:18:49.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Feb-2023 22:18:49.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Feb-2023 22:18:49.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/convidade/workspace/hello/apache-tomcat-9.0.72
+28-Feb-2023 22:18:49.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/convidade/workspace/hello/apache-tomcat-9.0.72
+28-Feb-2023 22:18:49.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/convidade/workspace/hello/apache-tomcat-9.0.72/temp
+28-Feb-2023 22:18:49.121 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/convidade/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Feb-2023 22:18:49.579 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+28-Feb-2023 22:18:49.619 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [747] milliseconds
+28-Feb-2023 22:18:49.650 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Feb-2023 22:18:49.650 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+28-Feb-2023 22:18:49.669 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/tasks.war]
+28-Feb-2023 22:18:51.607 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2023-02-28 22:18:53.161  INFO 42835 --- [           main] b.c.w.tasksfrontend.ServletInitializer   : Starting ServletInitializer v0.0.1-SNAPSHOT on Alexs-MacBook-Pro-2.local with PID 42835 (/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/tasks/WEB-INF/classes started by convidade in /Users/convidade/workspace/hello/apache-tomcat-9.0.72/bin)
+2023-02-28 22:18:53.173  INFO 42835 --- [           main] b.c.w.tasksfrontend.ServletInitializer   : No active profile set, falling back to default profiles: default
+2023-02-28 22:18:54.582  INFO 42835 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1333 ms
+2023-02-28 22:18:55.059  INFO 42835 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-28 22:18:55.188  INFO 42835 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-28 22:18:55.339  INFO 42835 --- [           main] b.c.w.tasksfrontend.ServletInitializer   : Started ServletInitializer in 3.46 seconds (JVM running for 6.946)
+2023-02-28 22:18:55.345  INFO 42835 --- [           main] b.c.w.t.TasksFrontendApplication         : Root context already created (using as parent).
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2023-02-28 22:18:55.376  INFO 42835 --- [           main] b.c.w.t.TasksFrontendApplication         : No active profile set, falling back to default profiles: default
+2023-02-28 22:18:55.604  INFO 42835 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 223 ms
+2023-02-28 22:18:55.608  INFO 42835 --- [           main] o.s.boot.web.servlet.RegistrationBean    : Filter errorPageFilter was not registered (possibly already registered?)
+2023-02-28 22:18:55.642  INFO 42835 --- [           main] b.c.w.t.TasksFrontendApplication         : Started TasksFrontendApplication in 0.296 seconds (JVM running for 7.249)
+28-Feb-2023 22:18:55.676 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/tasks.war] has finished in [6,007] ms
+28-Feb-2023 22:18:55.679 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/tasks-backend.war]
+28-Feb-2023 22:18:57.997 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2023-02-28 22:18:58.712  INFO 42835 --- [           main] b.c.w.t.TaskBackendApplication           : Starting TaskBackendApplication v0.0.1-SNAPSHOT on Alexs-MacBook-Pro-2.local with PID 42835 (/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/tasks-backend/WEB-INF/classes started by convidade in /Users/convidade/workspace/hello/apache-tomcat-9.0.72/bin)
+2023-02-28 22:18:58.717  INFO 42835 --- [           main] b.c.w.t.TaskBackendApplication           : No active profile set, falling back to default profiles: default
+2023-02-28 22:18:59.543  INFO 42835 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-28 22:18:59.626  INFO 42835 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 1 JPA repository interfaces.
+2023-02-28 22:19:00.056  INFO 42835 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-28 22:19:00.125  INFO 42835 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1370 ms
+2023-02-28 22:19:00.677  INFO 42835 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-28 22:19:00.833  INFO 42835 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2023-02-28 22:19:01.064  INFO 42835 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-02-28 22:19:01.254  INFO 42835 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-28 22:19:01.374  INFO 42835 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-28 22:19:01.413  INFO 42835 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2023-02-28 22:19:02.633  INFO 42835 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-28 22:19:02.646  INFO 42835 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-28 22:19:03.173  WARN 42835 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-28 22:19:03.385  INFO 42835 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-28 22:19:03.688  INFO 42835 --- [           main] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 5.45 seconds (JVM running for 15.295)
+28-Feb-2023 22:19:03.699 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/tasks-backend.war] has finished in [8,021] ms
+28-Feb-2023 22:19:03.700 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/docs]
+28-Feb-2023 22:19:03.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/docs] has finished in [87] ms
+28-Feb-2023 22:19:03.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/manager]
+28-Feb-2023 22:19:03.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/manager] has finished in [28] ms
+28-Feb-2023 22:19:03.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/examples]
+28-Feb-2023 22:19:04.033 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/examples] has finished in [215] ms
+28-Feb-2023 22:19:04.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/ROOT]
+28-Feb-2023 22:19:04.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/ROOT] has finished in [12] ms
+28-Feb-2023 22:19:04.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/host-manager]
+28-Feb-2023 22:19:04.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/convidade/workspace/hello/apache-tomcat-9.0.72/webapps/host-manager] has finished in [16] ms
+28-Feb-2023 22:19:04.065 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+28-Feb-2023 22:19:04.080 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14461] milliseconds
+2023-02-28 22:19:12.552  INFO 42835 --- [nio-8001-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-28 22:19:12.562  INFO 42835 --- [nio-8001-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2023-02-28 22:20:10.419  INFO 42835 --- [io-8001-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-28 22:20:10.447  INFO 42835 --- [io-8001-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms

@@ -2,6 +2,8 @@
 /.idea/
 
 ## Apache Tomcat ##
-/apache-tomcat-9.0.72/logs/
+apache-tomcat-9.0.72/logs/
 
-/.DS_Store
+### VS Code ###
+.vscode/
+**/.DS_Store
